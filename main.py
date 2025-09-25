@@ -13,7 +13,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 from telegram import Update
 
 # --- Configuration ---
-YOUR_BOT_TOKEN = os.getenv("8234552674:AAFAd4kC7rIZAYAnd1lsC1llPDU_m1iybBk", "")  # ⚠️ Stocke ton token dans les variables d'env Render
+YOUR_BOT_TOKEN = os.getenv("8234552674:AAFAd4kC7rIZAYAnd1lsC1llPDU_m1iybBk")  # ⚠️ Stocke ton token dans les variables d'env Render
 ADMIN_CHAT_IDS = os.getenv("ADMIN_CHAT_IDS", "7008926454").split(",")  # Liste d'admins séparés par des virgules
 INITIAL_CHAT_IDS = ["-1002621856407"]
 
