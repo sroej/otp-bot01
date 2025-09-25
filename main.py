@@ -404,7 +404,7 @@ async def check_sms_job(context: ContextTypes.DEFAULT_TYPE):
                 return
 
             processed_ids = load_processed_ids()
-                        chat_ids_to_send = load_chat_ids()
+            chat_ids_to_send = load_chat_ids()
             new_messages_found = 0
             
             for msg in reversed(messages):
